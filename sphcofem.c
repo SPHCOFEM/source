@@ -1,5 +1,6 @@
 /* Copyright 2000, 2002, 2015, 2020 - 2023 University of West Bohemia
 BSD 3-Clause "New" or "Revised" License
+https://github.com/orgs/SPHCOFEM
 */
 
 /* Errors

@@ -1608,7 +1608,7 @@ void move(int *num_m,int *type_m,
 		theta=psi_r[i+n_r]-psi_r_0[i+n_r];
 		phi=psi_r[i+2*n_r]-psi_r_0[i+2*n_r];
 
-		fprintf(stdout,"%f: %f, %f, %f\n",t,psi,theta,phi);
+		//fprintf(stdout,"%f: %f, %f, %f\n",t,psi,theta,phi);
 		
 		/* rotation matrices 
 		R=createMemMore(double,9);
@@ -1623,9 +1623,11 @@ void move(int *num_m,int *type_m,
 			vrx,vry,vrz, // second rotation axis
 			wrx,wry,wrz); // third rotation axis
 
+                /*
 		if (i==1)
 			fprintf(stdout,"%d, %f, %f, %f | %18.18f , %18.18f , %18.18f | = %f\n",
 				step,t,psi,psi_r[i]-psi_r_o[i],urx,ury,urz,norm(urx,ury,urz));
+                */
 
 		/*
 		if (i==1) fprintf(stdout,
